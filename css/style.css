@@ -75,7 +75,7 @@ footer{
     font-size: x-large;
     padding: 30px;
     margin-top: 10px;
-    background-color: lightblue;
+    background-color: rgba(196, 157, 157, 0.459);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -319,7 +319,7 @@ img{
 /* SERVICIOS*/
 
 .container-servicios{
-    background-color: aquamarine;
+    background-color: rgba(196, 157, 157, 0.459);
     margin-top: 5px;
     display: flex;
     justify-content: space-around;
@@ -335,18 +335,23 @@ img{
 
 .servicios h2{
     margin: 10px 0px;
+    text-shadow: 0 0 15px #222222
 }
 
 .servicios li{
     list-style-type: none;
 }
 .container-como-llegar{
-    background-color: lightskyblue;
+    background-color: rgba(196, 157, 157, 0.459);
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+}
+
+.container-como-llegar{
+    text-shadow: 0 0 15px #222222
 }
 
 .transportes{
@@ -359,7 +364,7 @@ img{
 
 .mapa-ubicacion{
     text-align: center;
-    background-color: lightgreen;
+    background-color: rgba(196, 157, 157, 0.459);
     margin-top: 10px;
 }
 
@@ -370,7 +375,7 @@ img{
 
 .container-marcas{
     margin-top: 10px;
-    background-color: rgba(238, 109, 109, 0.849);
+    background-color: rgba(196, 157, 157, 0.459);
 }
 
 .container-marcas h2{
@@ -402,7 +407,7 @@ img{
 
 @media screen and (max-width: 576px) { 
     .container-pieles{
-        background-color: lightgreen;
+        background-color: rgba(196, 157, 157, 0.459);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -456,7 +461,7 @@ img{
 
     .container-nosotros{
         margin-top: 20px;
-        background-color: lightyellow;
+        background-color: rgba(196, 157, 157, 0.459);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -470,6 +475,7 @@ img{
         align-items: center;
         margin-bottom: 15px;
     }
+
 
     footer{
         display: flex;
