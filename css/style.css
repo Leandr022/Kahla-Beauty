@@ -413,6 +413,16 @@ img{
 /* MEDIA QUERYS */
 
 @media screen and (max-width: 576px) { 
+
+    .logo-marca{
+        width: 60px;
+    margin-right: 5px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+        margin-right: 70px;
+    }
     .container-pieles{
         background-color: rgba(196, 157, 157, 0.459);
         display: flex;
@@ -423,10 +433,12 @@ img{
     .container-pieles h3{
         margin-top: 10px;
         margin-bottom: 3px;
+        justify-content: left;
     }
     .container-pieles ul{
         margin-top: 2px;
         margin-bottom: 3px;
+        justify-content: left;
     }
 
     .container-tarjetas-productos{
