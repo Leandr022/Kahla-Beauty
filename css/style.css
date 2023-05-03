@@ -419,6 +419,11 @@ img{
     margin-right: 5px;
     }
 
+    #banner{
+        width: 200%;
+        height: 350px;
+    }
+
     .navbar-brand{
         font-size: 20px;
         margin-right: 70px;
