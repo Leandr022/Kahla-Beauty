@@ -435,6 +435,11 @@ img{
 
 @media screen and (max-width: 576px) { 
 
+    .titulo-marcas,.container-como-llegar h2,.titulo-servicios,.container-productos h2,.container-productos h2{
+        font-size: 35px;
+    }  
+    
+    
     .logo-marca{
         width: 60px;
     margin-right: 5px;
