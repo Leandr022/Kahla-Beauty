@@ -315,6 +315,11 @@ img{
     padding: 10px 20px;
     cursor: pointer;
 }  
+.tarjeta-producto__boton:hover{
+    transform: translateY(1px);
+    background-color: lightgreen;
+    transition: transform 0.3s ease, background-color 3s ease;
+}
 
 /* SERVICIOS*/
 

@@ -27,4 +27,40 @@ footer {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+
+.tarjeta-producto__boton {
+  background-color: lightcoral;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  width: 90%;
+  margin: 5%;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tarjeta-producto__boton :hover {
+  transform: translateY(1px);
+  background-color: lightgreen;
+  transition: transform 0.3s ease, background-color 3s ease;
+}
+
+.contacto-form form button {
+  background: lightpink;
+  color: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.contacto-form form button :hover, 
+.contacto-form form button :focus {
+  background: #d63031;
+  color: black;
+  transition: background-color 1s ease-out;
+  outline: 0;
 }/*# sourceMappingURL=estilos.css.map */
