@@ -1,0 +1,36 @@
+//RESET
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: $font-principal;
+    box-sizing: border-box;
+}
+
+
+//HEADER GENERAL
+
+.logo-marca{
+    width: 100px;
+    margin-right: 5px;
+}
+.navbar-brand{
+    text-shadow: 0px 0px 40px #fff;
+    font-size: 40px;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+
+//FOOTER GENERAL
+footer{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(243, 107, 127);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
