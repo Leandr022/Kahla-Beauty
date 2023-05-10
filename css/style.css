@@ -435,7 +435,7 @@ img{
 
 @media screen and (max-width: 576px) { 
 
-    .titulo-marcas,.container-como-llegar h2,.titulo-servicios,.container-productos h2,.container-productos h2{
+    .titulo-marcas,.container-como-llegar h2,.titulo-servicios,.container-productos h2,.container-productos h2, .titulo-nosotros{
         font-size: 35px;
     }  
     
