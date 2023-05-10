@@ -201,12 +201,12 @@ img{
 
 /* NOSOTROS*/
 .titulo-nosotros{
-    margin-top: 5px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 50px;
     text-shadow: 0 0 7px #222222;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-nosotros{
@@ -232,7 +232,7 @@ img{
 
 .container-productos h2{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 0 0 7px #222222;
     margin: 15px;
     display: flex;
@@ -331,6 +331,14 @@ img{
     justify-content: space-around;
 }
 
+.titulo-servicios{
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 0 0 7px #222222;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
 .servicios{
     margin-top: 5px;
     display: flex;
@@ -339,7 +347,7 @@ img{
     justify-content: space-around;
 }
 
-.servicios h2{
+.servicios h3{
     margin: 10px 0px;
     text-shadow: 0 0 15px #222222
 }
@@ -356,8 +364,13 @@ img{
     align-items: center;
 }
 
-.container-como-llegar{
-    text-shadow: 0 0 15px #222222
+.container-como-llegar h2{
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 0 0 7px #222222;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .transportes{
@@ -388,11 +401,13 @@ img{
     align-items: center;
 }
 
-.container-marcas h2{
-    font-size: 30px;
+.titulo-marcas{
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 0 0 7px #222222;
+    margin: 15px;
     display: flex;
     justify-content: center;
-    text-shadow: 0 0 7px #222222
 }
 
 .container-marcas p{
