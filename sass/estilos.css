@@ -29,42 +29,6 @@ footer {
   text-align: center;
 }
 
-.tarjeta-producto__boton {
-  background-color: lightcoral;
-  font-size: 15px;
-  color: black;
-  padding: 12px 18px;
-  border-radius: 3px;
-  text-decoration: none;
-  display: block;
-  width: 90%;
-  margin: 5%;
-  margin-top: 5px;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-.tarjeta-producto__boton :hover {
-  transform: translateY(1px);
-  background-color: lightgreen;
-  transition: transform 0.3s ease, background-color 3s ease;
-}
-
-.contacto-form form button {
-  background: lightpink;
-  color: black;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-.contacto-form form button :hover, .contacto-form form button :focus {
-  background: #d63031;
-  color: black;
-  transition: background-color 1s ease-out;
-  outline: 0;
-}
-
 /*INDEX*/
 #banner {
   margin-top: 1px;
@@ -257,7 +221,6 @@ img {
 
 /* PRODUCTOS*/
 .container-productos {
-  background-color: rgba(196, 157, 157, 0.459);
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -297,7 +260,7 @@ img {
 .tarjeta-producto:hover {
   transform: scale(1);
   transition: all 0.9;
-  box-shadow: 0 0 7px 7px #383737;
+  box-shadow: 0 0 20px 20px #383737;
 }
 
 .tarjeta-producto__imagen {
@@ -359,7 +322,6 @@ img {
 
 /* SERVICIOS*/
 .container-servicios {
-  background-color: rgba(196, 157, 157, 0.459);
   margin-top: 5px;
   display: flex;
   justify-content: space-around;
@@ -392,7 +354,6 @@ img {
 }
 
 .container-como-llegar {
-  background-color: rgba(196, 157, 157, 0.459);
   margin-top: 5px;
   display: flex;
   flex-direction: column;
@@ -419,7 +380,6 @@ img {
 
 .mapa-ubicacion {
   text-align: center;
-  background-color: rgba(196, 157, 157, 0.459);
   margin-top: 10px;
 }
 
@@ -430,7 +390,6 @@ img {
 
 .container-marcas {
   margin-top: 10px;
-  background-color: rgba(196, 157, 157, 0.459);
   display: flex;
   flex-direction: column;
   justify-content: center;
