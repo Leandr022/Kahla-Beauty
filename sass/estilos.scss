@@ -251,12 +251,14 @@ img{
 }
 
 .tarjeta-producto__descripcion{
+    color: $color-primary;
     font-size: 18px;
     padding: 15px;
     text-align: justify;
 }
 
 .tarjeta-producto__precio{
+    color: $color-primary;
     font-size: 18px;
     text-align: center;
     margin-top: 2px;
