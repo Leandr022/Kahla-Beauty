@@ -28,18 +28,15 @@
     background-color: rgba(196, 157, 157, 0.459);
     display: flex;
     justify-content: space-around;
+    li{
+        list-style-type: none;
+        display: flex;
+    }
+    img{
+        width: 150px;
+        margin-top: 5px;
+    }
 }
-
-.container-pieles li{
-    list-style-type: none;
-    display: flex;
-}
-.container-pieles img{
-    width: 150px;
-    margin-top: 5px;
-}
-
-
 .container-informacion{
     font-size: x-large;
     padding: 30px;
@@ -49,11 +46,9 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-}
-
-.imagenes-informacion img{
-    width: 80px;
-}
+    img{
+        width: 45px;
+}}
 
 /* CONTACTO*/
 .body-contacto{
@@ -182,14 +177,12 @@ img{
     margin-top: 20px;
     background-color: rgba(196, 157, 157, 0.459);
     display: flex;
+    img{
+        width:250px;
 }
-
-.container-nosotros img{
-    width:250px;
+    p{
+        margin-left: 10px;
 }
-
-.container-nosotros p{
-    margin-left: 10px;
 }
 
 /* PRODUCTOS*/

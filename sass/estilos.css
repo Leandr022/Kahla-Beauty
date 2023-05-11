@@ -58,12 +58,10 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
 .container-pieles li {
   list-style-type: none;
   display: flex;
 }
-
 .container-pieles img {
   width: 150px;
   margin-top: 5px;
@@ -79,9 +77,8 @@ footer {
   align-items: center;
   flex-direction: row;
 }
-
-.imagenes-informacion img {
-  width: 80px;
+.container-informacion img {
+  width: 45px;
 }
 
 /* CONTACTO*/
@@ -210,11 +207,9 @@ img {
   background-color: rgba(196, 157, 157, 0.459);
   display: flex;
 }
-
 .container-nosotros img {
   width: 250px;
 }
-
 .container-nosotros p {
   margin-left: 10px;
 }
