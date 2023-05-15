@@ -156,9 +156,7 @@ footer {
   text-transform: uppercase;
   padding: 1em;
 }
-
-.contacto-form form button:hover,
-.contacto-form form button:focus {
+.contacto-form form button:hover, .contacto-form form button:focus {
   background: #d63031;
   color: black;
   transition: background-color 1s ease-out;
@@ -251,7 +249,6 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-
 .tarjeta-producto:hover {
   transform: scale(1);
   transition: all 0.9;

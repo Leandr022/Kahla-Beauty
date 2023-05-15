@@ -125,14 +125,14 @@
     border: 0;
     text-transform: uppercase;
     padding: 1em;
-}
-
-.contacto-form form button:hover,
-.contacto-form form button:focus {
-    background: #d63031;
-    color: $color-secondary;
-    transition: background-color 1s ease-out;
-    outline: 0;
+    
+    &:hover,
+    &:focus {
+        background: #d63031;
+        color: $color-secondary;
+        transition: background-color 1s ease-out;
+        outline: 0;
+    }
 }
 
 /* CONTACT INFO */
@@ -220,12 +220,12 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-
-.tarjeta-producto:hover{
-    transform: scale(1.0);
+    
+    &:hover{
+        transform: scale(1.0);
     transition: all 0.9;
     box-shadow: 0 0 20px 20px #383737;
+}
 }
 
 .tarjeta-producto__imagen{
