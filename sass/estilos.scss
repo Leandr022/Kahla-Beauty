@@ -15,12 +15,11 @@
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+    &:hover{
+        cursor:default;
+        width: 20%;
+        opacity: 1;
     }
-    
-#banner img:hover{
-    cursor:default;
-    width: 20%;
-    opacity: 1;
 }
 
 .container-pieles{
