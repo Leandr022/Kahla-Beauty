@@ -41,7 +41,7 @@ footer {
   width: 16.6%;
   flex-grow: 1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0.8;
   transition: 0.5s ease;
 }
